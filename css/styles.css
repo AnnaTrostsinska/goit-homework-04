@@ -243,12 +243,20 @@ body {
     margin-bottom: 0;
 }
 
-.benefits-list-icon {
-    width: 264px;
+.benefits-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 112px;
-    border: 1px solid #8E8F99;
-    background: #F4F4FD;
+    background-color: #f4f4fd;
     border-radius: 4px;
+    margin-bottom: 8px; 
+    border: 1px solid #8E8F99;
+}
+
+svg {
+    width: 64px;
+    height: 64px;
 }
 
 .benefits-list-title {
