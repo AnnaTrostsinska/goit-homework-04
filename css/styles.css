@@ -519,6 +519,8 @@ svg {
 
 .footer-container {
     margin-right: 120px;
+    display: flex;
+    align-items: baseline;
 }
 
 .logotype-link-footer {
