@@ -564,6 +564,7 @@ svg {
 
 .footer-social-list {
     gap: 16px;
+    display: flex; 
 }
 
 .footer-social-list-link {
@@ -575,6 +576,15 @@ svg {
     justify-content: center;
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+}
+.footer-social-list-link:hover,
+.footer-social-list-link:focus {
+    background-color: #31d0aa;
+}
+
+.footer-social-list-icon {
+    width: 24px;
+    height: 24px;
 }
 
 /* ============== FOOTER STYLES ============== */
