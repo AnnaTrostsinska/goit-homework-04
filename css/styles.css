@@ -158,6 +158,9 @@ body {
     position: absolute;
 }
 
+.current-page {
+    color: #404bbf; 
+}
 
 .contact-header-list {
     display: flex;
